@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <link href="" rel="shortcut icon"  />
+  <meta name="description" content="网站描述" />
+  <meta name="keywords" content="网站关键词" />
+  <title>软装云商城</title>
+  <link rel="stylesheet" type="text/css" href="./dist/style/temp.css">
+  <link rel="stylesheet" type="text/css" href="./dist/style/Shop_data_style.css">
+  <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.3&key=f89402e4b15a51d46881f8dff739bf1f"></script>
+</head>
+<body>
+  <!--产品展示头部-->
+  <div class="prod_head">
+    <a href="javascript:history.go(-1);">返回</a>
+    <div>店铺详情</div>
+  </div>
+  <!--店铺门面展示-->
+  <div class="shop_show" style="background-image:url(./images/temp/shop_show.jpg);">
+  </div>
+  <!--店铺展示区域开始-->
+  <div class="shop">
+    <div class="shop_cont">
+      <div style="background-image:url(./images/temp/2.png)" class="shop_img"></div>
+      <div class="shop_title">
+        <span class="shop_name"></span>
+        <div class="shop_auth">
+          <img src="./images/icon/public/shop_auth.png" />
+          <span>已实名认证</span>
+        </div>
+        <div class="shop_brow">
+          <img src="./images/icon/public/shop_brow.png" />
+          <span>0000</span>
+        </div>
+        <a href="tel:13647625558" class="shop_tell">
+          <img src="./images/icon/public/phone.png"/>
+          <span>联系店主</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+  <!--门店介绍-->
+    <div class="box_item">
+      <span class="box_item_name">门店介绍</span>
+      <div class="shop_intr">
+        <p>
+          重庆华艺墙纸及辅料批发是一家经营进口（国产）高中低档墙纸、无缝墙布、壁画及辅料设计、研发、批发、销售、施工为主体的多元化实力品牌企业！
+        </p>
+        <p>
+          公司系列品牌产品全部采用环保工艺和水性墨生产，全部通过国家质检中心检测。通过遍布于全国各省市县级的代理商和经销商，走进千家万户，远销海内外，广泛用于一般家庭、高档别墅、酒店宾馆、娱乐餐饮、写字楼、展览馆、政府机构、品牌连锁等场所，丰富的花色品种完全能够满足不同场所对墙面装饰的需求。
+        </p>
+      </div>
+    </div>
+  <!--荣誉资质-->
+    <a href="#" class="box_item">
+      <span class="box_item_name">荣誉资质</span>
+      <span class="box_item_more">查看</span>
+    </a>
+  <!--案例详情-->
+    <div class="box_item">
+      <span class="box_item_name">案例详情</span>
+      <a href="" class="box_item_more">查看</a>
+      <div class="case_cont">
+
+      </div>
+    </div>
+  <!--地图展示-->
+    <div class="box_item">
+      <span class="box_item_name">我的位置</span>
+      <div id="container"></div>
+    </div>
+  </div>
+  <!--微信二维码分享-->
+  <div class="wechat_qr">
+    <img src="./images/temp/qr.png"/>
+    <span>长按二维码关注微信</span>
+  </div>
+  <!--导航菜单开始-->
+  <div class="nav">
+    <a href="./index.html" class="nav_item">
+      <img src="./images/icon/public/index_us.png"/>
+      <span>首页</span>
+    </a>
+    <a href="javascript:(0);" class="nav_item nav_item_sele">
+      <img src="./images/icon/public/shop_s.png"/>
+      <span>店铺详情</span>
+    </a>
+    <a href="javascript:(0);" class="nav_item" onclick="alert('个人中心暂未开放！')">
+      <img src="./images/icon/public/user_us.png"/>
+      <span>我的</span>
+    </a>
+  </div>
+  <script type="text/javascript" src='./lib/jquery_1.8.3.js'></script>
+  <script type="text/javascript" src="./lib/com_plug.js"></script>
+  <script type="text/javascript" src="./dist/js/shop_data_style.js"></script>
+</body>
+</html>

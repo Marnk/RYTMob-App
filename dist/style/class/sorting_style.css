@@ -1,0 +1,111 @@
+@charset "utf-8";
+/*筛选分类页面样式*/
+.shop_clas{
+  width: 100%;
+  max-width: 720px;
+  right:0;
+  margin:auto;
+  height: 100%;
+  background-color:#ffffff;
+}
+.shop_clas{
+  background-color:#f7f7f7;
+}
+.shop_clas_top{
+  padding:0px 15px;
+  width: calc(100% - 30px);
+  height:45px;
+  background-color:#ff643d;
+}
+.shop_clas_top>a{
+  width: 50px;
+  display: inline-block;
+  height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color:#ffffff;
+  padding:12.5px 0px;
+}
+.shop_clas_top>a::before{
+  position: relative;
+  top:2.5px;
+  left: 0px;
+  height: 15px;
+  width: 10px;
+  margin-right:5px;
+  display: inline-block;
+  content: '';
+  background:url(../../../images/icon/public/return.png) no-repeat center/cover;
+}
+.shop_clas_top>div{
+  font-size: 18px;
+  color:#ffffff;
+  width: 80px;
+  height:45px;
+  line-height: 45px;
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  margin:auto;
+}
+.shop_clas_cont{
+  padding-bottom:150px;
+}
+.clas_item{
+  padding:0px 15px;
+  width:calc(100% - 30px);
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+.clas_item_title::before{
+  position: relative;
+  top:2.5px;
+  margin-right:10px;
+  content:"";
+  width: 3px;
+  height: 18px;
+  background:url(../../../images/icon/public/prod_tag.png) no-repeat center/cover;
+}
+.clas_item_title{
+  padding:10px 0px;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: "黑体";
+  height:25px;
+  width: 80px;
+}
+.clas_item_right_tag{
+  width: 6px;
+  height:10px;
+  margin-top:17.5px;
+  float:right;
+  background:url(../../../images/icon/public/more_l.png) no-repeat center/cover;
+}
+.clas_cont_head{
+  border-bottom:1px solid #eeeeee;
+}
+
+
+.clas_nav{
+    min-width: 320px;
+    max-width: 720px;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    height:40px;
+    display:flex;
+}
+.clas_nav>span{
+  flex:1;
+  line-height:40px;
+  text-align:center;
+  font-size:16px;
+  color:#ffffff;
+}
+.clas_nav>span:nth-child(1){
+  background-color:#ffcb2b;
+}
+.clas_nav>span:nth-child(2){
+  background-color:#ff643b;
+}
